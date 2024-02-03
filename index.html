@@ -1,0 +1,130 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-WZx3+FLVS+Z2+vJUh8dWcXuuhGnZlhKl25rjnRaeD+dMf1tAyejXYs5Xmi8r6tHbl7foGhKXMbRvImk9T8sUgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/dee464019f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Hello, I'm Likhitha</h1>
+                <h3>Web developer</h3>
+            </div>
+        </div>
+    </section>    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/logo.jeg" alt="Your Image">
+            </div>
+            <div class="about-text">
+                <div class="description">
+                    <p>I am a passionate web developer with a keen interest in crafting elegant and efficient solutions to complex problems. My journey in the world of technology began with a profound fascination for coding, which has since evolved into a full-fledged career.</p>
+                </div>
+                <h3>Professional Expertise:</h3>
+                <ul>
+                    <li><strong>Web Development:</strong> </li>
+                    <li><strong>Programming Languages:</strong> </li>
+                        <ul>
+                            <li>Html,css,javascript</li>
+                            <li>C,Python,Java</li>
+                        </ul>
+                    </li>
+                </ul>
+                <button id="download-cv">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <div class="skill-name">Python</div>
+            <div class="skill-bar">
+                <div class="skill-level python">70%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+                <div class="skill-level html">85%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+                <div class="skill-level css">80%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+                <div class="skill-level javascript">90%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">C</div>
+            <div class="skill-bar">
+                <div class="skill-level c">80%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Java</div>
+            <div class="skill-bar">
+                <div class="skill-level java">78%</div>
+            </div>
+        </div>
+    </section>    
+    
+    <section id="certification">
+        <h2>Certification</h2>
+        <div class="certificates">
+            <ul>
+                <li>Achieved GFG course completion certificate on Advanced DSA Live Training Program</li>
+                <li>Python Essential Training Issued By Greatlearning application</li>
+                <li>Basics of Python Issued By Infosys Spring Board</li>
+                
+            </ul>
+
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-icons">
+            <a href="#"><i class="fas fa-envelope"></i>likhithavanjarapu434@gmail.com</a>
+            <a href="#"><i class="fas fa-phone"></i> 6300930563</a>
+            <a><i class="fas fa-language"></i> English,Telugu</a>
+        </div>
+        <div class="details">
+            <ul>
+              <li><a href="https://www.instagram.com/likhitha_bts?utm_source=qr&igsh=a3Jvc3lkMWVmNWdp" target="_blank"><i class="fa-brands fa-instagram"></i></a>Instagram profile</li>
+              <li><a href="https://x.com/SuneelVikr89883?t=V0EClclEyeyENF_VwWwM0w&s=08" target="_blank"><i class="fa-brands fa-twitter"></i></a>Twitter profile</li>
+              <li><a href="https://www.linkedin.com/in/guna-sekhar-7a9aa1281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>linkedin profile</li>
+            </ul>
+          </div>
+    </section>
+</body>
+</html>
+<script>
+    document.getElementById("download-cv").addEventListener("click", function() {
+        // Assuming your resume is a PDF file named "resume.pdf"
+        window.open("path/to/your/resume.pdf", "_blank");
+    });
+</script>
